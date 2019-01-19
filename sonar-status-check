@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/lcaoppit/devsecops'
+     git 'https://github.com/lcaoppit/vulnerablecode'
    }
    stage('Compile-Package'){
       // Get maven home path
